@@ -20,3 +20,10 @@
     frag = magenta bold # line info
     old = red # deletions
     new = green # additions
+
+[user]
+    name =
+    email =
+
+[core]
+    editor =

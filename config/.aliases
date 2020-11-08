@@ -10,5 +10,5 @@ alias -- -="cd -"
 alias g="git"
 alias h="history"
 
-#ifood shortcuts
+# ifood shortcuts
 alias ifood="cd ~/Documentos/projects/ifood"
