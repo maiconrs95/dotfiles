@@ -42,7 +42,7 @@ sudo ln -s $DOTFILES/config/.gitconfig ~/.gitconfig
 msg_checking ".gitconfig"
 
 read -p "  - What is your Git user.name? " git_name
-git config --global user.name "$git_name"
+git config --global user.name $git_name
 
 read -p "  - What is your Git user.email? " git_email
 git config --global user.email $git_email

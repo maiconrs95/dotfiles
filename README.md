@@ -6,5 +6,5 @@
 ### Installation
 
 ```bash
-curl -L https://raw.github.com/maiconrs95/dotfiles/master/install.sh | bash
+curl -L https://raw.github.com/maiconrs95/dotfiles/main/install.sh | bash
 ```
