@@ -1,4 +1,4 @@
-# Easier navigation: .., ..., ~ and -
+# Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias cd..="cd .."
 alias ...="cd ../.."
@@ -9,6 +9,10 @@ alias -- -="cd -"
 # Shortcuts
 alias g="git"
 alias h="history"
+alias l="ls -l"
+alias la="ls -la"
+alias lsd='ls -l | grep "^d"'
+alias cl="clear"
 
 # ifood shortcuts
 alias ifood="cd ~/Documentos/projects/ifood"

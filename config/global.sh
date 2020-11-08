@@ -15,19 +15,6 @@ fi
 sudo ln -s $DOTFILES/config/.bash_profile ~/.bash_profile
 msg_checking ".bash_profile"
 
-# .aliases :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-echo "• aliases configuration"
-
-if [ -f "$HOME/.aliases" ]; then
-    msg_update ".aliases"
-    rm ~/.aliases
-else
-    msg_install ".aliases"
-fi
-
-sudo ln -s $DOTFILES/config/.aliases ~/.aliases
-msg_checking ".aliases"
-
 # .gitconfig :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 echo "• git / github configuration"
 
@@ -39,7 +26,7 @@ else
 fi
 
 sudo ln -s $DOTFILES/config/.gitconfig ~/.gitconfig
-msg_checking ".gitconfig"
+msg_checking ". "
 
 read -p "  - What is your Git user.name? " git_name
 git config --global user.name $git_name
