@@ -13,6 +13,10 @@ alias l="ls -l"
 alias la="ls -la"
 alias lsd='ls -l | grep "^d"'
 alias cl="clear"
+alias document="cd ~/Documentos"
+alias projects="cd ~/Documentos/projects"
 
 # ifood shortcuts
 alias ifood="cd ~/Documentos/projects/ifood"
+
+alias cleanProjectCache='rm -rf node_modules && npm cache clean --force && npm i';
