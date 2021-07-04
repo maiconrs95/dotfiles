@@ -1,0 +1,28 @@
+[
+  {
+    "key": "alt+shift+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+shift+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+shift+r",
+    "command": "fileutils.renameFile"
+  },
+  {
+    "key": "alt+shift+d",
+    "command": "fileutils.removeFile"
+  },
+  {
+    "key": "alt+shift+m",
+    "command": "fileutils.moveFile"
+  },
+  {
+    "key": "alt+shift+n",
+    "command": "fileutils.newFileAtRoot"
+  }
+]
