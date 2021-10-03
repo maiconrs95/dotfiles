@@ -1,29 +1,40 @@
 [alias]
     # View the current working tree status using the short format
-    s = status
+    a   = add
+    s   = status
+    l   = log
+    d   = diff
+    cob = checkout -b
+    co  = checkout
 
 [color]
-
     # Use colors in Git commands that are capable of colored output when
     # outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
     ui = auto
 
 [color "branch"]
-
     current = yellow reverse
-    local = yellow
-    remote = green
+    local   = yellow
+    remote  = green
 
 [color "diff"]
-
     meta = yellow bold
     frag = magenta bold # line info
-    old = red # deletions
-    new = green # additions
+    old  = red # deletions
+    new  = green # additions
 
 [user]
-    name =
-    email =
+    name  = Maicon Silva
+    email = maiconrs95@gmail.com
+
+[github]
+  user   = maiconrs95
 
 [core]
-    editor =
+    editor = nvim
+
+[config]
+    defaultBranch = main
+
+[init]
+    defaultBranch = main
