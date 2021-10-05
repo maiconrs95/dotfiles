@@ -1,5 +1,48 @@
 [
   {
+    "key": "f12",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+
+  {
+    "key": "ctrl+right",
+    "command": "cursorWordPartRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "cursorWordPartLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteWordPartLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+backspace",
+    "command": "deleteWordPartRight",
+    "when": "textInputFocus && !editorReadonly"
+  },
+
+  {
+    "key": "ctrl+shift+/",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+
+  {
     "key": "alt+shift+up",
     "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus"
@@ -9,6 +52,7 @@
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
   },
+
   {
     "key": "alt+shift+r",
     "command": "fileutils.renameFile"
