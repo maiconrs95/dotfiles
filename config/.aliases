@@ -15,6 +15,7 @@ alias lsd='ls -l | grep "^d"'
 alias cl="clear"
 alias document="cd ~/Documentos"
 alias projects="cd ~/Documentos/projects"
+alias clearbranches='git branch | grep -v "main | master" | xargs git branch -D'
 
 # ifood shortcuts
 alias ifood="cd ~/Documentos/projects/ifood"
